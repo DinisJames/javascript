@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudos DOM </h1>
+    <h2>Introdução ao DOM</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cupiditate officiis numquam cum voluptatibus quia mollitia illum magnam maxime repudiandae ut unde, qui consequuntur debitis sunt iure, magni minus ratione?</p>
+    <p id="alerta">Reprehenderit corrupti <strong>nobis doloremque illum</strong> odit eius et, illo iste earum non recusandae, sapiente voluptate <strong>perferendis sequi quasi voluptates! Possimus ab quam consequuntur dolorum unde!</strong> Praesentium laudantium ex consequatur adipisci.</p>
+    <p>Eaque molestiae praesentium, reiciendis illo dignissimos architecto fuga eius nam nihil alias, incidunt, sunt iste repellendus. Dicta eius omnis modi quo id. Magnam natus, perspiciatis omnis magni placeat ad corporis.</p>
+
+    <div>Clique em mim</div>
+    <script>
+        /* POR MARCA
+
+        var fundo = window.document.getElementsByTagName('p')[1]
+        fundo.style.color = 'blue'
+        var f = window.document.body
+        f.style.background = 'red'
+        var m = window.document.getElementsByTagName('p')[2]
+        window.alert(m.innerText)
+
+        */
+
+        /* POR ID
+
+        var d = window.document.getElementById('alerta')
+        d.style.color = 'red'
+        d.innerText = 'Essa era a nossa div'
+
+        */
+
+        /* POR NAME
+
+        var n = window.document.getElementsByName('alerta')[0]
+        n.style.color = 'aqua'
+        var n = window.document.getElementsByName('alerta')[1]
+        n.style.color = 'red'
+
+        */
+
+        /* POR SELETOR a mais recomendada
+
+        var n = window.document.querySelector('p#alerta')
+        n.style.color = 'red'
+
+        */
+        
+    </script>
+</body>
+</html>
